@@ -2,13 +2,14 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="background_styles.css">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <script src="./JS/script.js" defer></script>
+  <script type=module src="./JS/headerFooter.js"></script>
   <title>My Gospel Notes</title>
 </head>
 
 <body>
+
   <nav class="navbar">
     <div class="brand-title">My Gospel Notes</div><a href="#" class="toggle-button">
       <span class="bar"></span>
@@ -16,23 +17,18 @@
       <span class="bar"></span>
     </a>
     <div class="navbar-links">
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./PlanOfSalvation.html">Plan of Salvation</a></li>
-        <li><a href="./GeneralConference.html">General Conference</a></li>
-        <li><a href="./Temples.html">Temples</a></li>
-      </ul>
+      <my-header></my-header>
+
     </div>
   </nav>
-<h1>Welcome to Gospel Notes</h1>
-<h2>About Me</h2>  
+  <div class="bodytext">
+    <h1>Welcome to Gospel Notes</h1>
+    <h2>About Me</h2>
 
-
-
-
-  <my-footer>
-    @ 2024 | Contact Me
-  </my-footer>
+    <my-footer>
+      @ 2024 | Contact Me
+    </my-footer>
+  </div>
 </body>
 
 </html>
