@@ -4,8 +4,6 @@ html {
     background-color: White;
 }
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -15,20 +13,38 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1rem;
-    color: #4C4E52;
+    color: #333;
 }
-.bodytext{
+
+.bodytext {
     margin: 1rem;
-    color: black;
+
+}
+
+.bodytext a:link,
+a:visited {
+    background-color: lightseagreen;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    Width: 400px;
+}
+
+.bodytext a:hover,
+a:active {
+    background-color: grey;
 }
 
 h1 {
     font-size: 1.75rem;
-    color: #4C4E52
+    color: #333;
 }
 
 h2 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    color: #333;
 }
 
 blockquote {
@@ -36,27 +52,35 @@ blockquote {
     border-left: 10px solid #00bfff;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-  }
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
 
-.article-background{
+.article-background {
     background-color: beige;
     padding-top: 20px;
     padding-bottom: 20px;
-
-    
-
 }
+
 .article {
     background-color: white;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    width: 600px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 500px;
     margin: 0 auto;
-/*     display: flex;
-    justify-content: center; */
+    text-align: justify;
+}
+
+.articleHeader {
+    text-align: right;
+}
+
+.articleHeader a:link,
+a:visited {
+    background-color: White;
+    color: blue;
+    text-align: right;
 }
 
 .navbar {
@@ -64,7 +88,6 @@ blockquote {
     display: flex;
     position: relative;
     justify-content: space-between;
-    /* align-items: center; */
     background-color: #333;
     color: white;
     flex-direction: column;
@@ -99,7 +122,7 @@ blockquote {
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    background-color: lightseagreen;
 }
 
 .toggle-button {
@@ -119,12 +142,6 @@ blockquote {
     background-color: white;
     border-radius: 10px;
 }
-
-/* @media (max-width: 200px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    } */
 
 .toggle-button {
     display: flex;
@@ -151,4 +168,3 @@ blockquote {
 .navbar-links.active {
     display: flex;
 }
-
