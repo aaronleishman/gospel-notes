@@ -2,18 +2,21 @@
 <html>
 
 <head>
-    <title>Template</title>
+    <title>The Strait And Narrow Path</title>
     <link rel="stylesheet" href="../CSS/styles.css">
+    <script type=module src="../JS/headerFooter.js"></script>
 </head>
 
 <body>
-
+    
     <div class="article-background">
 
         <div class="article">
-            <div class="articleHeader">
-                | <a href="../index.html">Home</a> |
-            </div>
+            <my-header></my-header>
+                           
+                <a href="../index.html">Home</a> |
+                <a href="#" onclick="history.back()">Back</a>
+            
             <h1>The Strait And Narrow Path</h1>
             -Aaron Leishman Sept 2024
             <p>
@@ -26,7 +29,7 @@
                 First, I would like to point out that in every passage of scripture in reference to the Strait and
                 narrow
                 path the word Strait isn't Spelled S-T-R-A-I-G-H-T like in a straight line but rather spelled
-                S-T-R-A-I-T
+                <span class="u">S-T-R-A-I-T</span>
                 which is defined as Strict, Rigorous, Difficult. I like to think of the Strait and Narrow path as a
                 steep
                 hiking trail leading up to the tall mountain peak.
@@ -150,6 +153,8 @@
             Turn back and go home and try again in a couple of years when my kids are older.
             Take the easy trail at the fork.
             Or take the steeper trail up the mountain.
+
+            <my-footer></my-footer>
         </div>
     </div>
 </body>
