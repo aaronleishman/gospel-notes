@@ -50,7 +50,7 @@ blockquote {
 }
 
 .u {
-    text-decoration-thickness: 10px;
+    text-decoration-thickness: 5px;
     text-decoration: underline;
     text-decoration-color: red;
 }
