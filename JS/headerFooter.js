@@ -32,14 +32,13 @@ class ArticleHeader extends HTMLElement {
             <br>
             <a href="../index.html">Home</a> |
             <a href="#" onclick="history.back()">Back</a>
-            </div>
             <hr>
-        </p>
+            </div>
     `
     }
 }
 
-customElements.define('article-header', ArticleHeader)
+customElements.define('art-header', ArticleHeader)
 
 class MyFooter extends HTMLElement {
     connectedCallback() {
