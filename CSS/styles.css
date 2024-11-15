@@ -10,29 +10,23 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
     padding: 0;
     font-size: 1rem;
     color: #333;
+    margin: 0;
 }
 
 .bodytext {
+
     margin: 1rem;
-
 }
 
-.bodytext a:link,
+a:link,
 a:visited {
-    background-color: lightseagreen;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    Width: 400px;
+    color: blue
 }
 
-.bodytext a:hover,
+a:hover,
 a:active {
     background-color: grey;
 }
@@ -55,6 +49,12 @@ blockquote {
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
+.u {
+    text-decoration-thickness: 10px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
 .article-background {
     background-color: beige;
     padding-top: 20px;
@@ -73,13 +73,6 @@ blockquote {
 }
 
 .articleHeader {
-    text-align: right;
-}
-
-.articleHeader a:link,
-a:visited {
-    background-color: White;
-    color: blue;
     text-align: right;
 }
 

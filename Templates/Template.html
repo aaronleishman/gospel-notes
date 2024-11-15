@@ -2,17 +2,33 @@
 <html>
 
 <head>
+    <!-- Give the page a Title  -->
     <title>Template</title>
     <link rel="stylesheet" href="../CSS/styles.css">
+    <script type=module src="../JS/headerFooter.js"></script>
 </head>
 
 <body>
     <div class="article-background">
         <div class="article">
-            <div class="articleHeader">
-                | <a href="../index.html">Home</a> |
-            </div>
-            The content of the document AAron
+            <my-header></my-header>
+
+            <a href="../index.html">Home</a> |
+            <a href="#" onclick="history.back()">Back</a>
+            <!-- Here is where you can start Writing your article -->
+            <!-- Style guide for reference DO NOT DELETE -->
+            <!-- 
+             1. Underline text with a red line 
+                <span class="u">red underline text</span>
+             2. To use Block Quotes use 
+                <blockquote></blockquote>
+             3. Start every paragraph with a <p> tag 
+             4. Use <h1> for the title
+                 -->
+            <h1>Article Title</h1>
+            <p>paragraph 1</p>
+        
+            <my-footer></my-footer>
         </div>
     </div>
 </body>
