@@ -49,6 +49,7 @@ blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C" "\201D" "\2018" "\2019";
+    width: 500px;
 }
 
 .u {
@@ -93,6 +94,10 @@ blockquote {
 .brand-title {
     font-size: 2em;
     margin: 1em;
+    background: -webkit-linear-gradient(rgb(0,150,255), rgb(0,255,150));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      
 }
 
 .navbar-links {
@@ -163,3 +168,4 @@ blockquote {
 .navbar-links.active {
     display: flex;
 }
+
