@@ -18,6 +18,12 @@ body {
     margin: 0;
 }
 
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
 .bodytext {
 
     margin: 1em;
