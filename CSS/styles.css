@@ -73,7 +73,7 @@ blockquote {
     top:0;
     left: 0;
     width: 100%;
-    height: 2900px;
+    
     
 }
 
@@ -111,7 +111,7 @@ blockquote {
 }
 
 .brand-title {
-    font-size: 1.75em;
+    font-size: 2.25em;
     margin: 0.5em;
     background: -webkit-linear-gradient(rgb(0,150,255), rgb(0,255,150));
     -webkit-background-clip: text;
