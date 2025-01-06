@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div style="margin: 1rem;">
-            <a href="./ComeFollowMe.html">Come Follow Me</a> |
+            <a href="./ComeFollowMe.html">Gospel Topics</a> |
             <a href="./Covenants.html">Covenants</a> |
             <a href="./GeneralConference.html">General Conference</a> |
             <a href="./PlanOfSalvation.html">Plan of Salvation</a> |
@@ -23,7 +23,7 @@ class ArticleHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div style="margin: 1rem;">
-            <a href="../ComeFollowMe.html">Come Follow Me</a> |
+            <a href="../ComeFollowMe.html">Gospel Topics</a> |
             <a href="../Covenants.html">Covenants</a> |
             <a href="../GeneralConference.html">General Conference</a> |
             <a href="../PlanOfSalvation.html">Plan of Salvation</a> |
